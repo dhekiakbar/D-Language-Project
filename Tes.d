@@ -38,9 +38,3 @@ void main()
     writeln(comparedWord);
 
 }
-
-/* 
-Menggunakan modul lain dri luar 
-
-
-*/
