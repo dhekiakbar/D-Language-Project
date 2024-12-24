@@ -13,7 +13,7 @@ void main()
     // writefln("%s\n%s\n%s\n", arr1, arr2, arr3);
 
     string[] text = ["AKU", "MAU", "SPREI", "GRATIS"];
-    string[] comparedWord;  // Holds the concatenated pairs
+    string[] comparedWord;  
     string comparing = "";
     int index = 0;
 
@@ -24,11 +24,11 @@ void main()
             if (text[i] == text[j]){
             }
             else{   
-                comparing ~= text[i];  // Add first word
-                comparing ~= " ";      // Add space between words
-                comparing ~= text[j];  // Add second word
-                comparedWord ~= comparing;  // Store the result in comparedWord
-                comparing = "";  // Reset the comparing string for the next iteration
+                comparing ~= text[i];  
+                comparing ~= " ";      
+                comparing ~= text[j];  
+                comparedWord ~= comparing; 
+                comparing = "";  
             }
         }
         index++;
